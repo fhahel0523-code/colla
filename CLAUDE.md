@@ -49,4 +49,18 @@
 \- 실행 전에 무엇을 할지 먼저 한 줄로 알려줄 것
 
 
+# 팀 프로젝트 규칙
 
+## 담당 영역 (다른 사람 파일 수정 금지)
+- 팀장: index.html 뼈대, css/base.css
+- A: #hero, #about 블록 / css/hero.css
+- A: #members 블록 / css/members.css
+- A: #contact 블록 / css/contact.css, README.md
+
+## 브랜치
+- 형식: `feat/이름-작업`
+- main에 직접 커밋·푸시 금지
+
+## PR
+- 본문에 `## 변경 내용`, `## 확인 방법` 포함
+- 병합은 팀장이 한다
